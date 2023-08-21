@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .categories {
+    flex: 1;
+  }
+  
+  .products {
+    flex: 2;
+  }
+  
+  .product-info {
+    flex: 2;
+    display: none;
+  }
+
+.order-form {
+    flex: 2;
+  }
+  
+  .error-message {
+    color: red;
+  }
+    
